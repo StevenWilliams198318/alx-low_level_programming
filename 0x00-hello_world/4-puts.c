@@ -1,7 +1,7 @@
 #include <stdio.h>
-/* 
+/*
  * main - using the put function to print a statement
- * Description: using main funciton
+ * Description: main function to print a statement using put
  * Return: 0
  */
 int manin(void)
