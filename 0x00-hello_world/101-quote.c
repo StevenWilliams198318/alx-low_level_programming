@@ -8,8 +8,7 @@
 int main(void)
 {
 	int i = STDERR_FILENO;
-	char msg = ("and that piece of art is useful" - Dora Korpar, 2015-10-19);
 
-	write(i, msg, strlen(msg));
+	write(i,"and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", strlen(msg));
 	return (1);
 }
