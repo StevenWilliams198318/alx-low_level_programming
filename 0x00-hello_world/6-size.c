@@ -10,8 +10,9 @@ print_size_of_type(void)
 {
 	printf("size of a (char) = %d\n", sizeof(char));
 	printf("size of a (int) = %d\n", sizeof(int));
-	printf("size of a (float) = %d\n", sizeof(float));
-	printf("size of a (double) + %d\n", sizeof(double));
+	printf("size of a (long int) = %d\n", sizeof(long int));
+	printf("size of a (long long int) = %d\n", sizeof(long long int));
+	printf("size of a (float) = %d\n",sizeof(float));
 }
 int main(void)
 {
