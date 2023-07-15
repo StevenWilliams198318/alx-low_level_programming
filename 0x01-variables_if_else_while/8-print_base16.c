@@ -7,11 +7,17 @@
 int main(void)
 {
 	int n = 0x30;
+	int a = 0x41;
 
 	while (n <= 0x39)
 	{
 		putchar(n);
 		n++;
+	}
+	while (a <= 0x46)
+	{
+		putchar(a);
+		a++;
 	}
 	putchar('\n');
 	return (0);
