@@ -7,6 +7,7 @@
 int main(void)
 {
 	int n = 0;
+
 	while (n <= 99)
 	{
 		printf("%02d", n);
@@ -17,5 +18,5 @@ int main(void)
 		n++;
 	}
 	printf("\n");
-	return 0;
+	return (0);
 }
