@@ -7,8 +7,8 @@
 int main(void)
 {
 	int n;
-	char com = ',';
-	char spac = ' ';
+	int com = ',';
+	int spac = ' ';
 
 	for (n = 48; n <= 57; n++)
 	{
