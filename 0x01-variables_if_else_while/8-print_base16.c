@@ -7,14 +7,14 @@
 int main(void)
 {
 	int n = 0x30;
-	int a = 0x41;
+	int a = 0x61;
 
 	while (n <= 0x39)
 	{
 		putchar(n);
 		n++;
 	}
-	while (a <= 0x46)
+	while (a <= 0x66)
 	{
 		putchar(a);
 		a++;
