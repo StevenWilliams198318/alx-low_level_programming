@@ -6,14 +6,16 @@
  */
 int main(void)
 {
-	for (int n = 0; n <= 99; n++)
+	int n = 0;
+	while (n <= 99)
 	{
 		printf("%02d", n);
 		if (n != 99)
 		{
 			printf(", ");
 		}
+		n++;
 	}
 	printf("\n");
-	return (0);
+	return 0;
 }
