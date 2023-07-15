@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	int n = 4;
+	int n = 48;
 	/*Betty wants a space, but complaints when one is there*/
 	while (n <= 57)
 	{
