@@ -1,12 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
-
-/*
- * main - reading positive, negative or zero numbers
+/**
+ * main - Entry point
  * Description: reading numbers with if..else if, else
- * Return: 0
+ * Return: always 0
  */
 int main(void)
 {
