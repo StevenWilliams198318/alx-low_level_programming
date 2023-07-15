@@ -4,8 +4,8 @@
 /* more headers goes there */
 
 /*
- * main - entry point to a program that reads if a number is positive, negative or zero
- * Description: using if..else if, else to decide the fate of the number
+ * main - reading positive, negative or zero numbers
+ * Description: reading numbers with if..else if, else
  * Return: 0
  */
 int main(void)
