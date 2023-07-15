@@ -6,10 +6,10 @@
  */
 int main(void)
 {
-	for (int i = 0; i <= 99; i++)
+	for (int n = 0; n <= 99; n++)
 	{
-		printf("%02d", i);
-		if (i != 99)
+		printf("%02d", n);
+		if (n != 99)
 		{
 			printf(", ");
 		}
