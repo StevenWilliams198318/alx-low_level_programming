@@ -7,7 +7,14 @@
  */
 int main(void)
 {
-	printf("_putchar");
-	printf("\n");
+	putchar('_');
+	putchar('p');
+	putchar('u');
+	putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('r');
+	printf('\n');
 	return (0);
 }
