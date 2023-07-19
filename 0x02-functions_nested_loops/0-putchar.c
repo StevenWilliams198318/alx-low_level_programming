@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <main.h>
+#include "main.h"
 /**
  * main - Entry point to program
  * Description: printing out '_putchar', and '\n'
@@ -15,6 +15,6 @@ int main(void)
 	putchar('h');
 	putchar('a');
 	putchar('r');
-	printf('\n');
+	putchar('\n');
 	return (0);
 }
